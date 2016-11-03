@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>tic-tac-toe</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>tic-tac-toe</h1>
+      <form id="players">
+        <div class="row">
+          <div class="col-md-6">
+            <label for="x">Enter your name to play as X.</label>
+            <input type="text" class="form-control" id="player-x">
+          </div>
+          <div class="col-md-6">
+            <label for="o">Enter your name to play as O.</label>
+            <input type="text" class="form-control" id="player">
+          </div>
+        </div>
+        <button type="submit" class="btn-info">Enter</button>
+        <form class="board">
+          <div class="row">
+            <div class="col-md-4" id="1" data-myValue="1"></div>
+            <div class="col-md-4" id="2" data-myValue="2"></div>
+            <div class="col-md-4" id="3" data-myValue="3"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4" id="4" data-myValue="4"></div>
+            <div class="col-md-4" id="5" data-myValue="5"></div>
+            <div class="col-md-4" id="6" data-myValue="6"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-4" id="7" data-myValue="7"></div>
+            <div class="col-md-4" id="8" data-myValue="8"></div>
+            <div class="col-md-4" id="9" data-myValue="9"></div>
+          </div>
+        </form>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
